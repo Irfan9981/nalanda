@@ -1,0 +1,3752 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+.nalanda-blog-img-div{
+    padding: 60px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #101828;
+}
+
+.main_banner_heading {
+    font-family: "Preahvihear", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.supp_ban_heading {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.light_heading {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.sub_heading {
+    font-size: 30px;
+    font-weight: 600;
+}
+.campus_heading {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.sub_min_heading {
+    font-size: 28px;
+    font-weight: 700;
+    color: #EF6820;
+}
+.sub_campus_heading {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.sun_head_min_text {
+    font-size: 24px;
+    font-weight: 400;
+}
+.min_heading {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.donate_name_font{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+} 
+.nalanda_campus_section .modal-body {
+    padding: 0 !important;
+}
+.nalanda_campus_section .btn-close {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    z-index: 999;
+    background:url(../images/x-solid.svg) !important;
+    background-size: contain;
+    background-repeat: no-repeat !important;
+    opacity: 1;
+}
+.nalanda_campus_section .modal-header {
+    padding: 0 !important;
+    border: none !important;
+}
+.nalanda_campus_section .modal-content {
+    background-color: transparent !important;
+    border: none !important;
+}
+.donate_by{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    text-transform: uppercase; 
+}
+.peragraph_bold_text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.peragraph_text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.nav_text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+}
+
+.pera_bold_text {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.peragraph_sub_text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+.card_num {
+    font-size: 80px;
+    font-weight: 600;
+    color: #0552B5;
+}
+
+.footer_links_heading_text {
+    font-size: 16px;
+    font-weight: 700;
+    color: #EAECF0;
+}
+
+.footer_links_text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #EAECF0;
+}
+
+.digital_banner_heading h1 {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.nalanda-header.is-sticky {
+    position: fixed;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    animation: slideDown 0.35s ease-out;
+    width: 100%;
+    z-index: 999999;
+}
+
+.nalanda-header.is-sticky img {
+    width: 100%;
+}
+
+.nalanda-header.is-sticky button {
+    font-size: 14px;
+    padding: 7px 10px;
+}
+
+.nalanda-header.is-sticky img {
+    width: 75%;
+}
+
+.nalanda-header {
+    background: #FFFFFFB2;
+
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.navbar-toggler img {
+    width: 35px;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.banner-bg {
+    background-image: url(../images/banner-bg.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.banner_section .slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #EF6820;
+}
+.banner_section .slick-dots li button:before {
+    font-size: 50px;
+    top: 10px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: #EF6820;
+}
+/*custom banner container */
+
+.bannerImage {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.left-banner-sec {
+
+    margin-left: calc((100vw - 1320px) / 2);
+}
+
+.banner_img img {
+    width: 100%;
+}
+.banner_img img {
+    height: 475px;
+    object-fit: fill;
+    border-radius: 200px 0px 0px 0px;
+}
+
+.banner_img {
+    padding-top: 50px;
+    max-width: 800px;
+}
+.nav-item .submenu a {
+    color: #000;
+}
+
+.nav-item:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.submenu li {
+    list-style: none;
+    padding: 5px 0px;
+}
+.submenu a:hover {
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.footer_social_icons a img:hover {
+    transform: translateY(-10px);
+    transition: all 0.3s;
+    filter: brightness(0) invert(1) grayscale(1);
+}
+.submenu {
+    visibility: hidden;
+    position: absolute;
+    left: 0px;
+    right: 0;
+    width: 250px;
+    display: block;
+    transition: .3s;
+    transform-origin: bottom center;
+    opacity: 0;
+    z-index: 999;
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0px 30px 30px 0px #0000001A;
+    border-radius: 10px;
+}
+/* other submenu */
+.nav-item .other_submenu a {
+    color: #000;
+}
+
+.sec-submenu:hover .other_submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.other_submenu li {
+    list-style: none;
+    padding: 5px 0px;
+}
+.other_submenu a:hover {
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.other_submenu {
+    visibility: hidden;
+    position: absolute;
+    left: 60px;
+    bottom: -130px;
+    right: 0px !important;
+    width: 250px;
+    display: block;
+    transition: .3s;
+    transform-origin: bottom center;
+    opacity: 0;
+    z-index: 999;
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0px 30px 30px 0px #0000001A;
+    border-radius: 10px;
+}
+/* third menu */
+.nav-item .sm_submenu a {
+    color: #000;
+}
+
+.sec-submenu:hover .sm_submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.sm_submenu li {
+    list-style: none;
+    padding: 5px 0px;
+}
+.sm_submenu a:hover {
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.sm_submenu {
+    visibility: hidden;
+    position: absolute;
+    left: 140px;
+    top:50px;
+    right: 0px !important;
+    width: 250px;
+    display: block;
+    transition: .3s;
+    transform-origin: bottom center;
+    opacity: 0;
+    z-index: 999;
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0px 30px 30px 0px #0000001A;
+    border-radius: 10px;
+}
+.dropdown-icon-img {
+    width: 25px !important;
+    padding-left: 5px;
+}
+.nav-link img {
+    width: 20px !important;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #000;
+}
+
+.nav_link_space {
+    padding: 0px 25px;
+}
+
+.nav-link:hover {
+    color: #000 !important;
+}
+
+.nav_active {
+    font-weight: 700;
+    padding: 10px 0px;
+}
+
+.header_btn {
+    border-radius: 32px;
+    border: 1px solid #EF6820;
+    padding: 10px 35px;
+    background: #EF6820;
+    color: #fff;
+    font-weight: 500;
+    transition: all .3s;
+    margin: 0px 20px;
+}
+
+.header_btn:hover {
+    background-color: #fff;
+    border: 1px solid #EF6820;
+    color: #000;
+}
+
+.banner_content {
+    padding-top: 9rem;
+    z-index: 1;
+    position: relative;
+}
+
+.Contribute-btn {
+    margin-top: 20px;
+}
+
+.contribute_now_btn {
+    background-color: #EF6820;
+    color: #fff;
+    border-radius: 25px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    transition: all .3s;
+    display: inline-block;
+}
+
+.contribute_now_btn:hover {
+    background-color: #fff;
+    border: 1px solid #EF6820;
+    color: #000;
+}
+
+.heading_bg {
+    padding: 15px 0px;
+}
+
+.banner_desc {
+    width: 70%;
+}
+
+.blue_heading {
+    color: #1E65BB;
+}
+
+.blue_text {
+    color: #1E65BB;
+}
+
+.nalanda_mitra_section {
+    margin: 50px 0px 100px 0px;
+    padding: 25px 0px;
+    position: relative;
+    background-image: url(../images/become-nalanda-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image_card {
+    border-radius: 25px;
+    box-shadow: 0px 4.31px 4.31px 0px #C0BDBD40;
+    background-color: #fff;
+}
+
+.img_card_pad {
+    padding: 0px 0px 25px 0px;
+}
+
+.cont_yellow_btn {
+    background-color: #F39A00;
+    box-shadow: 0px 2.62px 0.66px 0px #FFFFFF66 inset;
+
+}
+
+.banner_contribute_btn {
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 35px;
+    margin-top: 20px;
+}
+
+.cont_yellow_btn:hover {
+    border: 1px solid #F39A00;
+}
+
+.card_heading {
+    font-size: 24px;
+    font-weight: 500;
+    color: #093F68;
+}
+
+.image_card p {
+    margin: 20px 0px;
+}
+
+.round_slider_heading {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.round_slider_desc {
+    width: 404px;
+}
+
+.nalanda_impact_section {
+    padding: 50px 0px;
+}
+
+.campus_btns {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.nalanda_campus_cont {
+    padding: 60px 65px;
+    background-color: #FFFBEB;
+    height: 310px;
+}
+
+.mt-space-responsive {
+    margin-top: 78px;
+}
+
+.location_box {
+    margin-top: 20px;
+}
+
+
+.initiatives_icon_heading {
+    font-size: 22px;
+    font-weight: 500;
+    color: #101828;
+}
+
+.initiatives_icon_desc {
+    font-size: 18px;
+    font-weight: 400;
+    color: #475467;
+}
+
+.Nalanda_card_bg {
+    background-color: #E7F1FF;
+}
+
+.Abhiyan_card_bg {
+    background: #FFFCED;
+}
+
+.Digital_card_bg {
+    background: #FFE7DA;
+}
+
+.Sanghmitra_card_bg {
+    background: #F8F8F8;
+}
+
+.Labs_card_bg {
+    background: #FFE2EC;
+}
+
+.Samyak_card_bg {
+    background: #DFFEFF;
+}
+
+.initiatives_icon_card:hover {
+    box-shadow: 0px 0px 43.47px 0px #0000001A;
+}
+
+.initiatives_section_heading {
+    letter-spacing: 6px;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.Our_initiatives_section {
+    padding: 100px 0px;
+}
+
+.initiatives_icon_card {
+    padding: 40px;
+    width: 320px;
+    height: 320px;
+}
+
+.initiatives_space_bottom {
+    margin-bottom: 50px;
+}
+
+.card_effect {
+    position: relative;
+}
+
+.initiatives_icon_card {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    border-radius: 10px;
+    padding: 30px 25px;
+    transition: box-shadow 0.3s ease;
+}
+
+.nalanda_mitra_cont {
+    margin-top: 50px;
+}
+
+.image_card img {
+    width: 100%;
+}
+
+.initiatives_icon_card img {
+    margin: 15px 0px;
+}
+
+.nalanda_mitra_sec {
+    background-color: #0552B5;
+    padding: 75px 0px 75px 0px;
+    margin-top: 30px;
+}
+
+.leaf_bg {
+    background-image: url(../images/leaf.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto;
+}
+
+.donate_btn {
+    border: 1px solid #fff;
+}
+
+.nalanda_campus_img {
+    height: 100%;
+}
+
+.nalanda_campus_img img {
+    width: 100%;
+    height: 310px;
+}
+
+.coun_btn_space {
+    margin-top: 8rem
+}
+
+.counselling_space_top {
+    margin-top: 50px;
+}
+
+.custom_counselling_sec {
+    background-image: url(../images/Counselling-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 75% 40%;
+    padding: 50px 20px;
+}
+
+.custom_counselling_blog_sec {
+    background-image: url(../images/blog-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 75% 40%;
+    padding: 50px 20px;
+}
+
+.footer_new_update {
+    border: 1px solid #fff;
+    border-radius: 16px;
+    font-size: 12px;
+    font-weight: 500;
+    background: #FFFFFF1A;
+    width: 42px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.counselling_block_space {
+    margin-top: 40px;
+}
+
+.block_cont_mr {
+    margin-top: 40px;
+}
+
+.block_btn_mr {
+    margin-top: 10rem;
+}
+
+.nalanda_event_cards {
+    padding: 50px 0px;
+}
+
+.nalanda_event_card {
+    position: relative;
+    display: inline-block;
+}
+
+.updates_slider_img img {
+    width: 99%;
+    height: 596px;
+}
+
+.nalanda_event_card img {
+    width: 100%;
+    height: auto;
+}
+
+.nalanda_event_card_cont {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: #022241D9;
+    color: white;
+    padding: 30px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.nalanda_event_card:hover .nalanda_event_card_cont {
+    opacity: 1;
+}
+
+.event_card_btn {
+    margin-top: 20px;
+}
+
+.event_card_btn a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.meet_team_section {
+    background-color: #EBF4FF;
+    padding: 100px 0px;
+}
+
+.meet_team_section .slick-next {
+    right: 25px;
+    top: -30px;
+}
+
+.meet_team_section .slick-prev {
+    top: -30px;
+    left: 91%;
+}
+
+.meet_team_section .slick-prev:before {
+    background-image: url(../images/prew-icon.png);
+    background-repeat: no-repeat;
+}
+
+.meet_team_section .slick-next:before {
+    background-image: url(../images/next-icon.png);
+    background-repeat: no-repeat;
+}
+
+.meet_team_section .slick-prev:before,
+.meet_team_section .slick-next:before {
+    font-size: 40px !important;
+    color: transparent !important;
+}
+
+.team_heading_spc {
+    margin-bottom: 30px;
+}
+
+.our_updates_section .slick-prev {
+    bottom: -100px;
+    top: unset;
+    left: unset;
+    right: 27%;
+}
+
+.our_updates_section .slick-next {
+    right: 18%;
+    top: unset;
+    bottom: -100px;
+}
+
+.our_updates_section .slick-prev:before {
+    background-image: url(../images/prew-icon-slider.png);
+    background-repeat: no-repeat;
+}
+
+.our_updates_section .slick-next:before {
+    background-image: url(../images/next-icon-slider.png);
+    background-repeat: no-repeat;
+}
+
+.our_updates_section .slick-prev:before,
+.our_updates_section .slick-next:before {
+    font-size: 50px !important;
+    color: transparent !important;
+    opacity: 1 !important;
+}
+
+.support_sec {
+    background-color: #1B61A3;
+    padding: 100px 0px;
+}
+
+.from_group input {
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    background: transparent;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.subscribe_from_group {
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.from_group {
+    width: 100%;
+}
+
+.subscribe_from_group input::placeholder {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.subscribe_from_group input {
+    color: #fff;
+}
+
+.subscribe_btn {
+    margin: 0px 4rem;
+    padding: 12px 35px;
+}
+
+.support_don_btn {
+    margin-top: 6rem;
+}
+
+.contact_info {
+    box-shadow: 0px 0px 20px 0px #0000001A;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.contact_info_sec {
+    padding: 100px 0px;
+    background-image: url(../images/contact-info-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.contact_info_box {
+    padding: 30px;
+}
+
+.mail_box {
+    border-right: 1px solid #d6d6d6;
+    border-left: 1px solid #d6d6d6;
+    margin: 20px 0px;
+}
+
+.phone_box {
+    margin: 20px 0px;
+}
+
+.contact_info_icon {
+    margin-bottom: 15px;
+}
+
+.video_btn:hover {
+    border: 1px solid #000;
+    box-shadow: 0px 0px 43.47px 0px #00000053;
+}
+
+.our_updates_section {
+    margin: 0px 0px 100px 0px;
+    padding: 100px 0px 140px 0px;
+    position: relative;
+}
+
+.our_updates_section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 72%;
+    height: 100%;
+    background-image: url(../images/updates-slider-bg.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.updates_slider_cont {
+    background-color: #fff;
+    padding: 50px;
+    clip-path: polygon(50% 0%, 100% 0, 100% 75%, 55% 86%, 0 100%, 0 0);
+    margin-right: -5rem;
+    z-index: 1;
+}
+
+.contribute_now_btn img {
+    margin-right: 10px;
+}
+
+.updates_slider_img {
+    margin: 25px 0px;
+}
+
+.contact_info_heading_sp {
+    padding-bottom: 40px;
+}
+
+#contact_form .input_fild input {
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    background: transparent;
+    border-radius: 5px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: #fff;
+}
+
+.contact_form_box {
+    margin-top: 50px;
+}
+
+#contact_form .text_area_fild {
+    margin-top: 30px;
+}
+
+#contact_form .text_area_fild textarea {
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    background: transparent;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.text_area_fild label {
+    padding-bottom: 10px;
+}
+
+.nalanda_campus_section {
+    margin-top: 100px;
+}
+.his_logo_cont_div{
+    display: flex;
+}
+/* footer css */
+.footer_section {
+    padding: 80px 0px 20px 0px;
+    background-color: #1B61A3;
+}
+
+.copyright_sec {
+    padding-top: 60px;
+}
+
+.footer_links {
+    padding: 0px 70px;
+}
+
+.footer_links a {
+    display: block;
+    padding: 5px 0px;
+}
+
+.footer_links a:hover {
+    color: #fff;
+}
+
+.footer_social_icons img {
+    padding: 0px 15px;
+    margin-top: 20px;
+}
+
+.copy_write {
+    margin-top: 20px;
+}
+
+.copy_write p,
+.footer_logo_cont p {
+    color: #D0D5DD;
+}
+
+/* === custom testimoneal slider === */
+
+.custom_testimoneal_slider .testimonial-slide {
+    padding: 0 100px 0 50px;
+    background-color: #fff;
+}
+
+.custom_testimoneal_slider .testimonial-slide img {
+    max-width: 100%;
+    height: auto;
+}
+
+.custom_testimoneal_slider .slider-nav.slick-dotted.slick-slider {
+    margin-bottom: 0px !important;
+}
+
+.custom_testimoneal_slider .slider-nav {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.custom_testimoneal_slider .slick-dots li button:before {
+    color: #000;
+}
+
+.custom_testimoneal_slider .slider-nav .slick-slide.slick-current+.slick-slide+.slick-slide img {
+    transform: scale(0.9) translateX(-192px);
+    background-image: url(../images/testimoneal_bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    padding: 15px;
+}
+
+.custom_testimoneal_slider .slider-nav .slick-slide img {
+    transform: scale(0.3) translateX(-350px);
+    z-index: -2;
+    position: relative;
+}
+
+.custom_testimoneal_slider .slick-list {
+    padding: 0px 0% 0px 0% !important;
+}
+
+.custom_testimoneal_slider .slider-nav .slick-slide {
+    text-align: center;
+}
+
+.custom_testimoneal_slider .slider-nav .slick-slide:last-child {
+    margin-right: 0;
+}
+
+.custom_testimoneal_slider .slick-prev {
+    left: unset;
+    right: 26%;
+    top: unset;
+    bottom: -4rem;
+}
+
+.custom_testimoneal_slider .slick-prev:before {
+    background-image: url(../images/prew-icon-slider.png);
+    background-repeat: no-repeat;
+}
+
+.custom_testimoneal_slider .slick-next {
+    right: 9%;
+    bottom: -4rem !important;
+    top: unset;
+}
+
+.custom_testimoneal_slider .slick-next:before {
+    background-image: url(../images/next-icon-slider.png);
+    background-repeat: no-repeat;
+}
+
+.custom_testimoneal_slider .slick-next:before,
+.custom_testimoneal_slider .slick-prev:before {
+    font-size: 50px;
+    opacity: 1;
+    color: unset !important;
+}
+
+.testimonial_section {
+    margin: 100px 0px 50px 0px;
+    overflow: hidden;
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.testimoneal_heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
+
+.testimoneal_sub_heading {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+
+.testimoneal_desc {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+/* ===Round slider css=== */
+.semi_cricle_slider_section .semi_cricle_slider {
+    height: 460px;
+    width: 100%;
+    position: relative;
+}
+
+.semi_cricle_slider_section .slide-container {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    margin: 75px auto;
+    border-radius: 50%;
+    background: url(https://images.unsplash.com/photo-1663138838201-b646ab34a94f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzg4fHxncmF5c2NhbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60) no-repeat bottom/contain;
+    transition: all .3s;
+    background-size: 350px 320px;
+}
+
+.semi_cricle_slider_section .slide-container .cricle-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 120px;
+    margin-top: -4vw;
+    margin-left: -4vw;
+    background-size: cover;
+    cursor: pointer;
+    transform: scale(1);
+    opacity: .9;
+    transition: all .3s;
+}
+
+.semi_cricle_slider_section .slide-container:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/dash-border-bg.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.semi_cricle_slider_section {
+    overflow: hidden;
+}
+
+.semi_cricle_slider_section .cricle-slide[data-slide-no="1"] {
+    background-image: url('../images/round-image-6.png');
+}
+
+.semi_cricle_slider_section .cricle-slide[data-slide-no="2"] {
+    background-image: url('../images/round-image-5.png');
+}
+
+.semi_cricle_slider_section .cricle-slide[data-slide-no="3"] {
+    background-image: url('../images/round-image-4.png');
+}
+
+.semi_cricle_slider_section .cricle-slide[data-slide-no="4"] {
+    background-image: url('../images/round-image-3.png');
+}
+
+.semi_cricle_slider_section .cricle-slide[data-slide-no="5"] {
+    background-image: url('../images/round-image-2.png');
+}
+
+.semi_cricle_slider_section .cricle-slide[data-slide-no="6"] {
+    background-image: url('../images/round-image-1.png');
+}
+
+.semi_cricle_slider_section .cricle-slide[data-slide-no="7"] {
+    background-image: url('../images/round-image-6.png');
+}
+
+.semi_cricle_slider_section .cricle-slide[data-slide-no="8"] {
+    background-image: url('../images/round-image-5.png');
+}
+
+.semi_cricle_slider_section .cricle-slide.active,
+.semi_cricle_slider_section .cricle-slide:hover {
+    transform: scale(1.3);
+    opacity: 1;
+    z-index: 100;
+}
+
+.semi_cricle_slider_section .button-wrap {
+    margin-top: auto;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.semi_cricle_slider_section .button-wrap .btn {
+    display: block;
+    flex: 1 1 auto;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all .3s;
+}
+
+.semi_cricle_slider_section .button-wrap .btn-prev {
+    position: absolute;
+    bottom: 0;
+    left: -25px;
+}
+
+.semi_cricle_slider_section .button-wrap .btn-prev .btn:focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.semi_cricle_slider_section .button-wrap .btn.btn-next {
+    position: absolute;
+    bottom: 0;
+    right: -25px;
+}
+
+@media all and (max-width: 1024px) {
+    .semi_cricle_slider_section .slide-container {
+        width: 55vw;
+        height: 55vw;
+    }
+
+    .semi_cricle_slider_section .slide-container .cricle-slide {
+        width: 13vw;
+        height: 13vw;
+        margin-top: -6.5vw;
+        margin-left: -6.5vw;
+    }
+}
+
+@media all and (max-width: 720px) {
+    .semi_cricle_slider_section .slide-container {
+        width: 65vw;
+        height: 65vw;
+    }
+
+    .semi_cricle_slider_section .slide-container .cricle-slide {
+        width: 15vw;
+        height: 15vw;
+        margin-top: -7.5vw;
+        margin-left: -7.5vw;
+    }
+}
+
+/* Digital nalanda page css */
+.digital_nalanda_banner{
+    background-image: url(../images/digital_nalanda_banner.png);
+}
+.common_banner {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1115px;
+    width: 100%;
+    position: relative;
+}
+
+.digital_img_heading_box {
+    display: flex;
+}
+
+.digital_banner_content {
+    padding-top: 146px;
+}
+
+.digital_icon_cards {
+    padding: 40px 0px 100px 0px;
+}
+
+.digital_nalanda_card {
+    border-radius: 10px;
+    box-shadow: 0px 30px 30px 0px #0000001A;
+    padding: 40px 20px;
+    text-align: center;
+    height: 100%;
+    background: #fff;
+}
+
+.digital_banner_img {
+    margin: 25px 25px 25px 0px;
+}
+
+.digital_nalanda_card_img {
+    width: 180px;
+    height: 180px;
+    background-color: #FFF5EF;
+    border: 2px solid #EF6820;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.digital_nalanda_card_img_bx {
+    display: flex;
+    justify-content: center;
+    padding: 26px 0px;
+}
+
+.digital_nal_cd_2 {
+    background-color: #FFFBEB;
+    border: 2px solid #FDD831;
+}
+
+.digital_nal_cd_3 {
+    background-color: #F5FCFF;
+    border: 2px solid #1B61A3;
+
+}
+
+.digital_nal_cd_4 {
+    background-color: #EBF1F3;
+    border: 2px solid #0B4056;
+
+}
+.our_achievement_section {
+    background-image: url(../images/achievement-update-sec-bg.png);
+    background-repeat: no-repeat;
+    margin-top: -16rem;
+    background-position: left;
+    padding: 310px 0px 216px 0px;
+    background-size: 100% 100%;
+}
+
+.digital_banner_heading {
+    width: 79%;
+}
+
+.nalanda_update_sec_space {
+    margin-top: 125px;
+}
+
+.achievement_icon_card {
+    width: 290px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 25px;
+    background-color: #fff;
+}
+
+.achiev_icon_num {
+    display: flex;
+    gap: 25px;
+}
+
+.achiev_per_col {
+    color: #6D737A;
+    padding: 30px 0px;
+}
+
+.achievement_icon_card_border-1 {
+    border: 1px solid #FFD233;
+}
+
+.achievement_icon_card_border-2 {
+    border: 1px solid #F24E1E;
+}
+
+.achievement_icon_card_border-3 {
+    border: 1px solid #1A906B;
+}
+
+.achievement_icon_card_border-4 {
+    border: 1px solid #0075FD;
+}
+
+.achievement_icon_card_border-5 {
+    border: 1px solid #FFC27A;
+}
+
+.achievement_icon_card_border-6 {
+    border: 1px solid #9747FF;
+}
+
+.nalanda_achievement_heading span {
+    color: #0552B5;
+}
+
+.nalanda_achievement_heading {
+    margin-bottom: 70px;
+}
+
+.digital_nalanda_slider_content h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.digital_nalanda_slider_content {
+    padding: 140px 50px;
+}
+
+.support-img-div-space {
+    padding-bottom: 100px;
+}
+
+.support_image_with_text_sec h3,
+.faq-sec-heading {
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+}
+
+.join_nalanda_today_sec {
+    background: #FFFCEB;
+    padding: 70px 100px;
+    box-shadow: 0px 20px 40px 0px #0000001F;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -50px;
+}
+
+.join_today_section {
+    padding-bottom: 120px;
+}
+
+.support_btn_bx a {
+    background: #1865F2;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer_logo_cont img {
+    width: 220px;
+    margin-bottom: 30px;
+}
+
+.digital_nalanda_slider_img img {
+    width: 100%;
+    height: auto;
+}
+
+.digital_nalanda_slider .slick-next {
+    right: 44%;
+    top: 110%;
+}
+
+.digital_nalanda_slider .slick-prev {
+    left: 48%;
+    top: 110%;
+}
+
+.digital_nalanda_slider .slick-prev:before {
+    background-image: url(../images/prew-icon-slider.png);
+    background-repeat: no-repeat;
+    font-size: 50px;
+    opacity: 1;
+    color: unset !important;
+}
+
+.digital_nalanda_slider .slick-next:before {
+    background-image: url(../images/next-icon-slider.png);
+    background-repeat: no-repeat;
+    font-size: 50px;
+    opacity: 1;
+    color: unset !important;
+}
+
+/* === support page css === */
+
+.support_banner {
+    background-color: #103858;
+    overflow: hidden;
+}
+
+.Supp_content_section {
+    padding: 80px 0px 50px 0px;
+}
+
+.support-img-div img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.support-img-div a {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.donate_monthly_div {
+    padding: 50px 40px;
+    box-shadow: 0px 0px 30px 0px #0000001A;
+    width: 554px;
+    margin: 0px auto;
+    background-color: #fff;
+}
+
+.frequently input[type="radio"]+span {
+    border: 1px solid #D9D9D9;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    margin-right: 30px;
+    width: 117px;
+    display: inline-block;
+}
+
+.frequently_div p {
+    color: #333;
+}
+
+.frequently input[type="radio"]:checked+span {
+    border: 1px solid #EF6820;
+    color: #EF6820;
+    font-weight: 600;
+    box-shadow: 0px 4px 15px 0px #00000026;
+}
+
+.frequently input[type="radio"] {
+    display: none;
+}
+
+.frequently_div,
+.customAmount_div {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.frequently_div p {
+    margin-bottom: 20px;
+}
+
+.customAmount_div label {
+    margin-bottom: 10px;
+}
+
+.rupay-icon {
+    padding: 10px 0px;
+}
+
+.customAmount_div input {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #999;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 15px;
+    height: 40px;
+}
+
+.customAmount_input {
+    width: 100%;
+}
+
+.support-pay-div {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.support-pay-div a {
+    outline: none;
+    border: 1px solid #EF6820;
+    border-radius: 25px;
+    background: #fff;
+    padding: 10px 15px;
+    width: 100px;
+    font-size: 13px;
+    transition: all 0.3s;
+    font-weight: 500;
+}
+
+.support-pay-div a img {
+    padding-left: 10px;
+}
+
+.support-pay-div a:hover {
+    box-shadow: 0px 4px 30px 0px #0000001A;
+}
+
+.support_faq_section {
+    padding-bottom: 100px;
+}
+
+.support_faq_section .accordion-button:focus {
+    box-shadow: none;
+}
+
+.support_faq_section .accordion-button:not(.collapsed) {
+    color: unset;
+    background-color: unset;
+    box-shadow: none;
+}
+
+.support_faq_section .accordion-item {
+    margin-top: 20px;
+    border: 1px solid #d7d7d7;
+    border-radius: 10px;
+}
+
+.support_faq_section .accordion-button {
+    border-radius: 10px !important;
+    font-size: 20px;
+    font-weight: 500;
+    color: #4D4D4D !important;
+}
+
+.support_faq_section .accordion_main_div {
+    margin-top: 50px;
+}
+
+.support_faq_section .accordion-button::after {
+    background-image: url(../images/faq+.svg);
+}
+
+.support_faq_section .accordion-button:not(.collapsed)::after {
+    background-image: url(../images/faq-.svg);
+    transform: unset !important;
+    transition: all 0.3s;
+}
+
+.support_faq_section .accordion-item.active {
+    border-color: #22D1EE !important;
+}
+
+.support_faq_section .accordion-body {
+    border-top: 1px solid #22D1EE;
+    margin: 0 20px;
+    padding: 20px 0px;
+}
+
+.support_image_with_text_sec {
+    background-image: url(../images/our-achievement-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    overflow: hidden;
+}
+
+.faq_ans_div p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #4D4D4D;
+}
+
+/* === history page css === */
+.history_banner_img img {
+    width: 100%;
+    height: auto;
+}
+
+.blue_bg_rel {
+    position: relative;
+    overflow: hidden;
+}
+
+.blue_bg {
+    background-color: #1B61A3;
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    z-index: -2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.his_text_img_sec {
+    padding-top: 100px;
+}
+
+.history_banner_cont {
+    box-shadow: 0px 0px 25px 0px #00000040;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: -120px;
+}
+
+.history_content_left {
+    width: 70%;
+    text-align: right;
+}
+
+.history_content_right {
+    padding-left: 190px;
+}
+
+.history_banner_cont h1 {
+    text-transform: uppercase;
+}
+
+.history_banner_cont h1 span {
+    color: #C04545;
+}
+
+.blue_year_col {
+    font-size: 80px;
+    font-weight: 700;
+    color: #1B61A3;
+}
+
+.history_text_heading {
+    font-size: 40px;
+    font-weight: 700;
+    color: #1B61A3;
+    text-transform: uppercase;
+}
+
+.heading_and_year {
+    padding-top: 40px;
+}
+
+.large_year_div {
+    text-align: center;
+}
+
+.large_year_div p {
+    font-size: 280px;
+    font-weight: 700;
+    color: #1B61A3;
+}
+
+/* .center_year_col h2,
+.center_year_col h3 {
+    color: #fff;
+} */
+
+.nalanda_his_top_bg {
+    background-image: url(../images/our-achievement-bg.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+    position: relative;
+    background-position: bottom;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+.nalanda_his_bottom_bg {
+    background-image: url(../images/our-achievement-bg-rev.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+    position: relative;
+    background-position: top;
+    background-size: 100%;
+}
+.cricle_on_img, .text_on_image {
+    position: relative;
+}
+.cricle_content_outerbox{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #FFFFFF80;
+    padding: 26px;
+    position: absolute;
+    bottom: -115px;
+    right: 70px;
+
+}
+.cricle_content_box {
+    background: #fff;
+    box-shadow: 0px 0px 50px 0px #00000040;
+    width: 246px;
+    height: 246px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 14px;
+    text-align: center;
+}
+.cricle_content_box h6{
+    font-size: 20px;
+    font-weight: 700;
+    color: #1B61A3;
+}
+.text_box {
+    background: #fff;
+    position: absolute;
+    bottom: 20px;
+    right: 35px;
+    padding: 10px 20px;
+}
+.text_box h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #1B61A3;
+    margin: 0;
+}
+.history_res_banner{
+    display: none;
+}
+
+/* abhiyan libraries page css */
+.abhiyan_libraries_banner{
+    background-image: url(../images/abhiyan-libraries-banner.png);
+}
+.prof_content p {
+    color: #595959;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+.prof_div {
+    display: flex;
+    align-items: center;
+}
+.prof_content {
+    padding: 0px 40px;
+}
+.ab_head_sm{
+    font-size: 54px;
+}
+.ab_head_bg{
+    font-size: 70px;
+}
+.team_name_list ul {
+    padding: 0;
+}
+.name_list_div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 120px;
+    margin-top: 30px;
+}
+.team_name_list ul li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+.prof_section{
+    padding: 50px 0px;
+}
+/* abhiyan labs page css */
+.abhiyan_labs_banner{
+    background-image: url(../images/abhiyan-labs-banner.png);
+}
+.abhiyan-lab-card {
+    position: relative;
+    width: 100%;
+    max-width: 305px;
+    overflow: hidden;
+}
+
+.abhiyan-lab-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.abhiyan-lab-card:hover img {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.abhiyan-lab-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    flex-direction: column; 
+    justify-content: end; 
+    align-items: center; 
+    padding: 20px;
+    cursor: pointer;
+}
+.abhiyan-lab-overlay h2{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+.abhiyan-lab-card:hover .abhiyan-lab-overlay {
+    opacity: 1;
+    transition: all 0.3s;
+}
+.labs-image-card-space{
+    margin: 50px 0px;
+}
+/* sanghmitra collective page css */
+.sanghamitra_collective_banner{
+    background-image: url(../images/sanghmitra-collective-banner.png);
+}
+.sang_coll_padd_hed{
+    padding-top: 30px;
+}
+.workshop_pera_space{
+    margin: 25px 0px;
+}
+.workshop_slider_div img {
+    width: 98%;
+}
+
+.workshop_slider_div .slick-slide:not(.slick-center) img {
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+    transform: scale(0.7);
+    transition: all 0.4s ease-in-out;
+}
+.workshop_slider_div .slick-center {
+	transform: scale(1.2);
+    animation: zoomIn 0.7s ease-in-out;
+}
+@keyframes zoomIn {
+    from {
+      transform: scale(0.8); 
+      opacity: 0;
+    }
+    to {
+      transform: scale(1); 
+      opacity: 1;
+    }
+  }
+
+.workshop_slider_div .slick-prev {
+    left: 48%;
+    top: 110%;
+}
+.workshop_slider_div .slick-prev:before {
+    background-image: url(../images/prew-icon-slider.png);
+    background-repeat: no-repeat;
+    font-size: 50px;
+    opacity: 1;
+    color: unset !important;
+}
+.workshop_slider_div {
+    margin: 60px 0px;
+    max-width: 100%;
+}
+.workshop_slider_div .slick-next {
+    right: 44%;
+    top: 110%;
+}
+.workshop_slider_div .slick-next:before {
+    background-image: url(../images/next-icon-slider.png);
+    background-repeat: no-repeat;
+    font-size: 50px;
+    opacity: 1;
+    color: unset !important;
+}
+.sanghmitra_slider_divs{
+    padding: 240px 0px 265px 0px;
+}
+/* === samyak center page css === */
+
+.samyak_center_banner{
+    background-image: url(../images/samyak-center-banner.png);
+}
+/* === Blog page css === */
+
+.blog_banner {
+    background-image: url(../images/blog-banner.png);
+    background-size: cover;
+    padding: 110px 0px 230px 0px;
+}
+.custom_blog_slider{
+    box-shadow: 0px 0px 25px 0px #00000040;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.blog_update_slider {
+    margin-top: -145px;
+}
+.blog_slider_content {
+    padding: 40px;
+}
+.banner_blog_heading{
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+}
+.banner_blog_peragraph{
+    color: #333333;
+    margin-top: 15px;
+}
+.blog_slide_icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+.blog_slide_icon {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.blog_slider_heading_icons {
+    border-bottom: 1px solid #BABABA;
+}
+.slider_blog_read_more_btn {
+    text-align: right;
+    margin-top: 100px;
+}
+.blogs_lists_section {
+    background-image: url(../images/our-achievement-bg.png);
+    background-repeat: no-repeat;
+    padding: 100px 0px;
+    background-position: top;
+    background-size: contain;
+}
+.blog_tabs_heading {
+    outline: none;
+    border: none;
+    background: #fff;
+    margin-right: 70px;
+    color: #999999;
+    font-size: 25px;
+    font-weight: 500;
+}
+.latestblog_popularblog_post .active {
+    color: #000;
+}
+.latest_blog_post {
+    display: flex;
+    margin-top: 25px;
+}
+.blog_post_heading{
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+}
+.latest_blog_list {
+    margin-top: 40px;
+}
+.blog_post_content {
+    margin-left: 40px;
+}
+
+.blog_post_btn {
+    margin-top: 25px;
+    padding: 0px 20px;
+}
+.blog_post_icon img {
+    margin-right: 10px;
+}
+.blog_post_nalanda_mitra_call {
+    margin-top: 50px;
+}
+.search_box{
+    position: relative;
+}
+.search_box:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/search-icon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.search_box input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+}
+.search_box input {
+    background: #fff;
+    border: 1px solid #BABABA;
+    border-radius: 10px;
+    padding: 15px 20px;
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+}
+.categories_box {
+    padding: 25px;
+    border: 1px solid #BABABA;
+    border-radius: 10px;
+    margin-top: 35px;
+    background-color: #fff;
+}
+.categories_list ul {
+    padding-left: 20px;
+}
+.categories_list ul li {
+    padding: 8px 0px;
+}
+.categories_list p {
+    border-bottom: 1px solid #D9D9D9;
+    padding-bottom: 15px;
+}
+.archives_list {
+    margin-top: 40px;
+}
+.blog_nalanda_mitra_sec {
+    margin-top: 100px;
+}
+.blog-card_tab_heading {
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background: #fff;
+    margin-right: 30px;
+}
+.blog_cards .active {
+    font-weight: 700;
+}
+.blog_card_num_font {
+    font-size: 16px;
+    font-weight: 300;
+    color: #333333;
+}
+.blog_cards_section {
+    padding-top: 100px;
+}
+.blog_tabs_space{
+    margin-top: 35px;
+}
+.blog-card {
+    width: 88%;
+}
+.blog_card_heading_sp{
+    margin-top: 20px;
+}
+.blog-card:hover {
+    box-shadow: 0px 0px 40px 0px #0000001A;
+    padding: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.blog_card_img{
+    width: 100%;
+}
+.load_more_blog_post {
+    margin-top: 50px;
+    text-align: center;
+}
+.blop_post_pera_share_flex{
+    display: flex;
+}
+#fliter-Modal {
+    z-index: 999999;
+    background: #00000075;
+}
+#exampleModal {
+    background: #00000075;
+    z-index: 999999;
+}
+.fliter-cus-btn {
+    display: none;
+}
+.bannerImage{
+    display: flex !important;
+}
+/* scroll tab names in responsive */
+.tabs-scroll-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 15px;
+}
+
+.nav.blog_tabs_space {
+    display: flex;
+}
+
+.blog-card_tab_heading {
+    white-space: nowrap;
+    margin-right: 10px;
+    min-width: 110px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.several_way_sec {
+    padding: 60px 0px;
+}
+.several_way_sec ul {
+    margin-top: 30px;
+}
+.more_info_bg{
+    padding: 30px 0px;
+    background-color: #FFFBEB;
+    text-align: center;
+    margin-top: 30px;
+}
+.more_info_bg p{
+    margin: 0;
+}
+.more_info_bg a {
+    font-weight: 700;
+    color: #1B61A3;
+}
+.campus_banner img{
+    width: 100%;
+}
+.mob_blog_post_flitters {
+    display: none;
+}
+.fliter-icon {
+    display: none;
+}
+@media (max-width: 1399px) {
+    .nav.blog_tabs_space {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .blog-card_tab_heading {
+        flex: 0 0 auto;
+    }
+}
+/* === media quary === */
+@media (max-width: 1499px) {
+    .custom_testimoneal_slider .slider-nav .slick-slide.slick-current+.slick-slide+.slick-slide img {
+        transform: scale(0.7) translateX(-285px);
+    }
+
+    .custom_testimoneal_slider .slick-prev {
+        right: 30%;
+        bottom: -3rem !important;
+    }
+
+    .custom_testimoneal_slider .slick-next {
+        right: 14%;
+        bottom: -3rem !important;
+        top: unset;
+    }
+}
+
+@media (max-width: 1399px) {
+    .contact_info_sec {
+        background-size: 455px 100%;
+    }
+    .semi_cricle_slider_section .slide-container {
+        background-size: 255px 239px;
+    }
+    .custom_testimoneal_slider .slider-nav .slick-slide.slick-current+.slick-slide+.slick-slide img {
+        transform: scale(0.6) translateX(-435px);
+    }
+
+    .custom_testimoneal_slider .slider-nav .slick-slide img {
+        transform: scale(0.2) translateX(-801px);
+    }
+
+    .custom_testimoneal_slider .slick-next {
+        right: 25%;
+    }
+
+    .custom_testimoneal_slider .slick-prev {
+        right: 35%;
+    }
+
+    .left-banner-sec {
+        
+        margin-left: calc((100vw - 1100px) / 2);
+    }
+
+    .custom_counselling_sec {
+        background-size: 1200px 185px;
+    }
+
+    .coun_btn_space {
+        margin-top: 6rem;
+    }
+
+    .counselling_space_top {
+        margin-top: 20px;
+    }
+
+    .counselling_block_space {
+        margin-top: 15px;
+    }
+
+    .block_cont_mr {
+        margin-top: 15px;
+    }
+
+    .custom_counselling_blog_sec {
+        background-size: 1200px 200px;
+    }
+
+    .block_btn_mr {
+        margin-top: 8rem;
+    }
+
+    .semi_cricle_slider_section .slide-container .cricle-slide {
+        margin-left: -6vw;
+    }
+
+    .semi_cricle_slider_section .button-wrap .btn-prev {
+        left: -10%;
+    }
+
+    .semi_cricle_slider_section .button-wrap .btn.btn-next {
+        right: -8%;
+    }
+
+    .semi_cricle_slider_section .semi_cricle_slider {
+        height: 423px;
+    }
+
+    .semi_cricle_slider_section .slide-container:after {
+        width: 109%;
+    }
+
+    .semi_cricle_slider_section .slide-container {
+        height: 390px;
+    }
+
+    .contact_form_box {
+        padding-right: 50px;
+    }
+
+    .mt-space-responsive {
+        margin-top: 45px;
+    }
+
+    /* degital nalanda */
+    .achievement_icon_card {
+        width: 250px;
+        height: 170px;
+        padding: 15px;
+    }
+
+    .peragraph_text {
+        font-size: 18px;
+    }
+    .prof_content p {
+        font-size: 32px;
+    }
+    .cus-img-res{
+       width: 280px;
+    }
+    .ab_head_sm {
+        font-size: 48px;
+    }
+    .ab_head_bg {
+        font-size: 58px;
+    }
+    .workshop_slider_div .slick-prev {
+        left: 48%;
+        top: 125%;
+    }
+    .workshop_slider_div .slick-next {
+        right: 44%;
+        top: 125%;
+    }
+    .slider_blog_read_more_btn {
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width:1299px) {
+    .custom_testimoneal_slider .slider-nav .slick-slide.slick-current+.slick-slide+.slick-slide img {
+        transform: scale(0.6) translateX(-498px);
+    }
+    .custom_testimoneal_slider .slider-nav .slick-slide img {
+        transform: scale(0.2) translateX(-1002px);
+    }
+    .custom_testimoneal_slider .slick-prev {
+        right: 40%;
+    }
+    .custom_testimoneal_slider .slick-next {
+        right: 28%;
+    }
+}
+@media only screen and (max-width:1199px) {
+    .semi_cricle_slider_section .slide-container {
+        background-size: 206px 239px;
+    }
+    .semi_cricle_slider_section .slide-container .cricle-slide {
+        width: 80px;
+        height: 80px;
+        margin-top: -4vw;
+        margin-left: -4vw;
+    }
+    .sanghamitra_collective_banner .digital_banner_content {
+        padding-top: 270px;
+    }
+    .abhiyan_libraries_banner .digital_banner_content {
+        padding-top: 245px;
+    }
+    .abhiyan_labs_banner .digital_banner_content {
+        padding-top: 240px;
+    }
+    .custom_testimoneal_slider .slider-nav .slick-slide.slick-current+.slick-slide img {
+        transform: scale(0.8) translateX(-309px);
+    }
+
+    .custom_testimoneal_slider .slider-nav .slick-slide.slick-current+.slick-slide img {
+        transform: scale(0.6) translateX(-385px);
+        background-image: url(../images/testimoneal_bg.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+        padding: 15px;
+    }
+
+    .custom_testimoneal_slider .slider-nav .slick-slide img {
+        transform: scale(0.2) translateX(-1361px);
+    }
+
+    .custom_testimoneal_slider .testimonial-slide {
+        padding: 0 20px 0 20px;
+    }
+
+    .left-banner-sec {
+        
+        margin-left: calc((100vw - 915px) / 2);
+    }
+
+    .initiatives_icon_card {
+        width: 210px;
+        height: 210px;
+        padding: 15px 12px;
+    }
+
+    .nav_link_space {
+        padding: 0px 0px;
+    }
+
+    .heading {
+        font-size: 32px;
+    }
+
+    .card_heading {
+        font-size: 20px;
+    }
+
+    .nalanda_mitra_cont {
+        margin-top: 0px;
+    }
+
+    .semi_cricle_slider_section .slide-container {
+        height: 360px;
+    }
+
+    .semi_cricle_slider_section .semi_cricle_slider {
+        height: 350px;
+    }
+
+    .button-wrap img {
+        width: 65px;
+    }
+
+    .sun_head_min_text {
+        font-size: 20px;
+    }
+
+    .card_num {
+        font-size: 60px;
+    }
+
+    .semi_cricle_slider_section .slide-container:after {
+        display: none;
+    }
+
+    .peragraph_text {
+        font-size: 18px;
+    }
+
+    .custom_counselling_sec {
+        background-size: 870px 145px;
+    }
+
+    .contribute_now_btn {
+        padding: 6px 10px;
+    }
+
+    .custom_counselling_blog_sec {
+        background-size: 899px 160px;
+    }
+
+    .custom_testimoneal_slider .slick-prev {
+        right: 48%;
+        top: 60%;
+    }
+
+    .custom_testimoneal_slider .slick-next {
+        right: 37%;
+        top: 60%;
+    }
+
+    .banner_content {
+        padding-top: 5rem;
+    }
+
+    .heading_bg {
+        padding: 20px 0px;
+    }
+
+    .slider-nav .slick-slide.slick-current+.slick-slide {
+        margin-right: 20rem;
+    }
+
+    .nav_active {
+        padding: 9px 0px;
+    }
+
+    .main_banner_heading {
+        font-family: "Preahvihear", sans-serif;
+        font-size: 28px;
+    }
+
+    .banner_desc {
+        width: 90%;
+    }
+
+    .mt-space-responsive {
+        margin-top: 30px;
+    }
+
+    .banner_contribute_btn {
+        font-size: 16px;
+
+    }
+
+    .header_btn {
+        padding: 8px 20px;
+    }
+
+    /* digital nalanda */
+    .digital_banner_heading h1 {
+        font-size: 40px;
+        margin-top: 25px;
+    }
+
+    .digital_banner_content {
+        padding-top: 175px;
+    }
+
+    .digital_nalanda_card {
+        padding: 30px 20px;
+    }
+
+    .digital_icon_cards {
+        padding: 50px 0px;
+    }
+
+    .digital_nalanda_card_img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .digital_nalanda_card_img img {
+        width: 55%;
+    }
+
+    .achiev_icon img {
+        width: 50px;
+    }
+
+    .sub_heading {
+        font-size: 24px;
+    }
+
+    .achiev_per_col {
+        padding: 15px 0px;
+    }
+
+    .achievement_icon_card {
+        width: 190px;
+        height: 180px;
+        padding: 15px;
+    }
+
+    .digital_banner_heading {
+        width: 60%;
+    }
+
+    .digital_nalanda_slider .slick-prev {
+        left: 35%;
+        top: 115%;
+    }
+
+    .digital_nalanda_slider .slick-next {
+        right: 53%;
+        top: 115%;
+    }
+
+    .our_achievement_section {
+        padding: 310px 0px 242px 0px;
+    }
+
+    .digital_nalanda_slider_content {
+        padding: 50px 50px;
+    }
+
+    .donate_monthly_div {
+        width: auto;
+    }
+
+    .frequently input[type="radio"]+span {
+        padding: 10px 15px;
+        margin-right: 10px;
+        width: 105px;
+    }
+    /* history */
+    .cricle_content_outerbox {
+        right: 0px;
+    }
+    .history_content_left {
+        width: 60%;
+    }
+    .history_text_heading {
+        font-size: 28px;
+    }
+    .blue_year_col {
+        font-size: 48px;
+    }
+    .prof_content p {
+        font-size: 24px;
+    }
+    .name_list_div {
+        gap: 0px;
+    }
+    .workshop_slider_div .slick-prev {
+        left: 45%;
+        top: 125%;
+    }
+    .blog_slider_content {
+        padding: 20px 20px 20px 0px;
+    }
+}
+@media (max-width: 1099px) {
+    .custom_testimoneal_slider .slick-next {
+        right: 44%;
+        top: 60%;
+    }
+    .custom_testimoneal_slider .slick-next:before {
+        background-size: 35px;
+    }
+    .custom_testimoneal_slider .slick-prev {
+        right: 52%;
+        top: 60%;
+        z-index: 1;
+    }
+    .custom_testimoneal_slider .slick-prev:before {
+        background-size: 35px;
+    }
+    .custom_testimoneal_slider .slider-nav .slick-slide img {
+        transform: scale(0.3) translateX(-1067px);
+    }
+    .custom_testimoneal_slider .slider-nav .slick-slide.slick-current+.slick-slide img {
+        transform: scale(0.6) translateX(-480px);
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .semi_cricle_slider_section .button-wrap .btn-prev {
+        left: 6%;
+        bottom: -2%;
+    }
+    .semi_cricle_slider_section .button-wrap .btn.btn-next {
+        right: 7%;
+        bottom: -2%;
+    }
+    .semi_cricle_slider_section .semi_cricle_slider {
+        height: 365px;
+    }
+    .his_logo_cont_div {
+        display: block;
+    }
+    .history_content_right {
+        padding-left: 165px;
+    }
+    .digital_nalanda_banner .digital_banner_content {
+        padding-top: 224px;
+    }
+    .Contribute-btn {
+        margin-top: 20px;
+        width: 135px;
+    }
+    .abhiyan_labs_banner .digital_banner_content {
+        padding-top: 195px;
+    }
+    .navbar-toggler {
+        display: flex;
+        justify-content: end;
+    }
+    .banner_img img {
+        height: 380px !important;
+        object-fit: fill;
+        border-radius: 90px 0px 0px 0px;
+    }
+    .navbar-brand img {
+        width: 60px;
+    }
+    .nalanda-header.is-sticky img {
+        width: 60px;
+    }
+    .navbar-toggler img {
+        width: 35px !important;
+    }
+    .navbar-toggler img {
+        width: 35px;
+    }
+    .navbar-toggler {
+        padding: 0 !important;
+    }
+    .heading_bg {
+        padding: 10px 0px;
+    }
+
+    .banner_content {
+        padding-top: 5rem;
+    }
+
+    .left-banner-sec {
+       
+        margin-left: calc((100vw - 670px) / 2);
+    }
+
+    .nav_text {
+        font-size: 16px;
+    }
+
+    .header_btn {
+        padding: 10px 20px;
+        margin: 20px 0px !important;
+    }
+
+    .contact_info_sec {
+        background-size: 365px 100%;
+    }
+
+    .contact_form_box {
+        padding-right: 0px;
+    }
+
+    .sub_min_heading {
+        font-size: 24px;
+    }
+
+    .heading {
+        font-size: 28px;
+    }
+
+    .initiatives_icon_card img {
+        width: 40%;
+    }
+
+    .initiatives_icon_card {
+        width: 170px;
+        height: 170px;
+    }
+
+    .peragraph_text {
+        font-size: 16px;
+    }
+
+    .Our_initiatives_section {
+        padding: 70px 0px;
+    }
+
+    .nalanda_mitra_section {
+        margin: 50px 0px 0px 0px;
+    }
+
+    .sun_head_min_text {
+        font-size: 16px;
+    }
+
+    .contact_info_box {
+        padding: 10px;
+    }
+
+    .testimoneal-d-block {
+        display: block !important;
+    }
+
+    /* digital nalanda */
+    .digital_img_heading_box {
+        display: block;
+    }
+
+    .digital_banner_content {
+        padding-top: 155px;
+    }
+
+    .digital_banner_heading h1 {
+        font-size: 32px;
+    }
+
+    .header_btn {
+        margin: 0px;
+        width: 150px;
+    }
+
+    .digital_nalanda_card {
+        margin-top: 25px;
+    }
+
+    .join_nalanda_today_sec {
+        background: #FFFCEB;
+        padding: 70px 50px;
+    }
+
+    .support_btn_bx a {
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .mt-space-responsive {
+        margin-top: 10px;
+    }
+
+    .updates_slider_img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .updates_slider_cont h2 {
+        font-size: 24px;
+    }
+
+    .support_don_btn {
+        margin-top: 0rem;
+    }
+
+    .our_updates_section::after {
+        width: 100%;
+        height: 100%;
+    }
+
+    .our_updates_section .slick-prev {
+        bottom: -60px;
+    }
+
+    .our_updates_section .slick-next {
+        bottom: -60px;
+    }
+
+    .footer_links {
+        padding: 0px 10px;
+    }
+
+    .footer_logo_cont img {
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+    .nalanda_mitra_section {
+        background-image: unset;
+        background-color: #F5FCFF;
+    }
+
+    .nalanda_campus_cont {
+        height: 225px;
+    }
+
+    .digital_banner_heading {
+        width: 100%;
+    }
+
+    .digital_nalanda_slider_content {
+        padding: 25px 25px;
+    }
+
+    .light_heading {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .donate_monthly_div {
+        padding: 25px 25px;
+    }
+
+    .frequently_div,
+    .customAmount_div {
+        margin-top: 20px;
+    }
+
+    .frequently input[type="radio"]+span {
+        margin-top: 20px;
+    }
+
+    .custom_testimoneal_slider .slider-nav .slick-slide.slick-current+.slick-slide img {
+        transform: scale(0.6) translateX(-210px);
+    }
+
+    .custom_testimoneal_slider .slider-nav .slick-slide img {
+        transform: scale(0.2) translateX(-887px);
+    }
+
+    .custom_testimoneal_slider .slick-next {
+        right: 15%;
+        top: 60%;
+    }
+
+    .custom_testimoneal_slider .slick-prev {
+        right: 35%;
+        top: 60%;
+    }
+    .large_year_div p {
+        font-size: 120px;
+    }
+    .history_content_left {
+        width: 50%;
+    }
+    .text_box h4 {
+        font-size: 18px;
+    }
+    .cricle_content_box h6 {
+        font-size: 16px;
+    }
+    .cricle_content_box p {
+        font-size: 12px;
+    }
+    .cricle_content_outerbox {
+        width: 185px;
+        height: 185px;
+        padding: 13px;
+        bottom: 0px;
+    }
+    .cricle_content_box {
+        width: 160px;
+        height: 160px;
+        padding: 30px 10px 10px 10px;
+    }
+    .prof_div {
+        display: block;
+    }
+    .prof_content {
+        margin-top: 35px;
+    }
+    .team_name_list ul li {
+        font-size: 16px;
+    }
+    .abhiyan-res-mar-top{
+        margin-top: 25px;
+    }
+    .ab_head_sm {
+        font-size: 40px;
+    }
+    .ab_head_bg {
+        font-size: 40px;
+    }
+    .abhiyan-lab-overlay h2 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .abhiyan-lab-overlay {
+        padding: 10px;
+    }
+    .banner_blog_heading {
+        font-size: 24px;
+    }
+    .slider_blog_read_more_btn {
+        margin-top: 20px;
+    }
+    .digital_nalanda_slider_img img {
+        width: 100%;
+        height: 360px;
+        object-fit: fill;
+    }
+    .blog_tabs_heading {
+        margin-right: 50px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .blog_post_heading {
+        font-size: 18px;
+    }
+    .blog_slide_icons {
+        gap: 0px 20px;
+    }
+    .blop_post_pera_share_flex{
+        display: block;
+    }
+    .blog_post_content {
+        margin-left: 20px;
+    }
+    .blog_post_btn {
+        margin-top: 0px;
+        padding: 0px 0px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .mob_blog_post_flitters {
+        display: block;
+    }
+    .blog_post_flitters{
+        display: none;
+    }
+    .fliter-icon img {
+        width: 25px;
+    }
+    .mob_blog_post_flitters{
+        height: 0;
+        overflow: hidden;
+       opacity:0;
+       transition:.5s all;
+    }
+    .mob_blog_post_flitters.active{
+        height:100%;
+        opacity:1;
+        transition:.5s all;
+        margin-top: 30px;
+      }
+    .fliter-icon {
+        margin-left: 60px;
+        display: block;
+    }
+    .support_faq_section {
+        padding-bottom: 50px;
+    }
+    .support-img-div-space {
+        padding-bottom: 50px;
+    }
+    .Contribute-btn {
+        margin-top: 20px;
+        width: 162px;
+    }
+    .digital_nalanda_banner .digital_banner_content {
+        padding-top: 50px;
+    }
+    .abhiyan_libraries_banner .digital_banner_content {
+        padding-top: 50px;
+    }
+    .abhiyan_labs_banner .digital_banner_content {
+        padding-top: 80px;
+    }
+    .abhiyan-lab-overlay h2 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .digital_banner_content.sanghmitra_banner_content {
+        width: 87%;
+        padding-top: 0%;
+    }
+    .testimoneal-d-block {
+        height: 360px;
+    }
+    .custom_testimoneal_slider .slick-prev {
+        right: 34%;
+        top: 52%;
+    }
+    .custom_testimoneal_slider .slick-next {
+        right: 24%;
+        top: 52%;
+    }
+    .categories_box {
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .categories_list ul li {
+        padding: 0px 0px;
+    }
+    .archives_list {
+        margin-top: 20px;
+    }
+    .categories_list p {
+        padding-bottom: 8px;
+    }
+    .sm_submenu {
+        left: 40px;
+    }
+    .campus_heading {
+        font-size: 24px;
+    }
+    .sub_campus_heading {
+        font-size: 24px;
+    }
+    .banner_img img {
+        height: 380px !important;
+        object-fit: fill;
+        border-radius: 90px 0px 0px 0px;
+    }
+    .flex-drec-rev-tab {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .custom_testimoneal_slider .slider-nav .slick-slide img {
+        transform: scale(0.2) translateX(-900px);
+    }
+
+    .custom_testimoneal_slider .slider-nav .slick-slide.slick-current+.slick-slide img {
+        transform: scale(0.6) translateX(-220px);
+    }
+
+    .custom_testimoneal_slider .slick-next {
+        right: 20%;
+        top: 60%;
+    }
+
+    .banner-bg {
+        background-size: 630px 776px;
+        background-position: top right;
+        height: 100%;
+    }
+
+    .bannerImage {
+        display: block;
+        width: 100%;
+    }
+
+    .left-banner-sec {
+       
+        margin-left: calc((100vw - 745px) / 2);
+    }
+
+    .banner_img img {
+        width: 100%;
+        height: 100%;
+        margin-left: calc((100vw - 100%) / 2);
+    }
+
+    .nalanda_mitra_section {
+        margin: 0px 0px 0px 0px;
+        padding: 50px 0px;
+        text-align: center;
+    }
+
+    br {
+        display: none;
+    }
+
+    .nalanda_campus_cont {
+        height: 100%;
+    }
+
+    .nalanda_campus_img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .right_image_card {
+        margin-top: 49px;
+    }
+
+    .semi_cricle_slider_section {
+        padding-top: 50px;
+    }
+
+    .initiatives_icon_card {
+        width: 220px;
+        height: 180px;
+        margin-top: 25px;
+    }
+
+    .mt-space-responsive {
+        margin-top: 0px !important;
+    }
+
+    .initiatives_space_bottom {
+        margin-bottom: 0px;
+    }
+
+
+    .semi_cricle_slider_section .button-wrap .btn.btn-next {
+        right: 0%;
+    }
+
+    .coun_btn_space {
+        margin-top: 0rem;
+    }
+
+    .block_btn_mr {
+        margin-top: 0rem;
+    }
+
+    .custom_counselling_blog_sec {
+        padding-top: 0px;
+    }
+
+    .lg_img {
+        width: 200px !important;
+        height: 260px;
+        margin-top: 25px;
+    }
+
+    .custom_counselling_blog_sec {
+        background-size: 100% 33%;
+        background-position: bottom;
+    }
+
+    .custom_counselling_sec {
+        background-size: 100% 55%;
+        background-position: top;
+    }
+
+    .nalanda_mitra_sec {
+        margin-top: 0px;
+    }
+
+    .banner_desc {
+        width: 100%;
+    }
+
+    .semi_cricle_slider_section .slide-container {
+        background-size: 190px 190px;
+    }
+
+    .semi_cricle_slider_section .slide-container {
+        height: 290px;
+    }
+
+    .semi_cricle_slider_section .semi_cricle_slider {
+        height: 290px;
+    }
+
+    .nalanda_campus_cont {
+        padding: 50px 50px;
+    }
+
+    .our_updates_section .slick-prev {
+        right: 56%;
+    }
+
+    .our_updates_section .slick-next {
+        right: 40%;
+    }
+
+    .our_updates_section {
+        margin: 0px 0px 50px 0px;
+        padding: 50px 0px;
+    }
+
+    .updates_slider_cont {
+        margin-right: 0rem;
+        margin-top: 50px;
+    }
+
+    .support_don_btn {
+        margin-top: 0rem;
+    }
+
+    .light_heading {
+        font-size: 28px;
+    }
+
+    .subscribe_from_group {
+        display: block;
+    }
+
+    .subscribe_from_group input {
+        margin-top: 25px;
+    }
+
+    .subscribe_from_group {
+        margin-top: 0px;
+    }
+
+    .mail_box {
+        border-right: unset;
+        border-left: unset;
+    }
+
+    .contact_info_sec {
+        background-size: 295px 100%;
+    }
+
+    .footer_logo_cont {
+        text-align: center;
+    }
+
+    /* digital nalanda */
+    .common_banner {
+        background-position: left;
+        height: 753;
+    }
+
+    .achievement_icon_card {
+        margin-top: 25px;
+    }
+
+    .support_btn_bx a {
+        margin-top: 10px;
+        display: inline-block;
+    }
+
+    .digital_nalanda_slider .slick-prev {
+        left: 35%;
+    }
+
+    .navbar-brand img {
+        width: 50%;
+    }
+
+    /* .digital_nalanda_banner {
+        background-image: url(../images/digital-nalanda-mobile-banner.png);
+        background-size: cover;
+        background-position: top;
+    } */
+
+    .common_banner {
+        height: 687px;
+    }
+
+    .digital_banner_content {
+        padding-top: 26%;
+    }
+
+    .digital_banner_content {
+        width: 60%;
+    }
+
+    .digital_banner_img img {
+        width: 75px;
+    }
+
+    .digital_icon_cards {
+        padding: 0px 0px;
+        margin-top: -67px;
+    }
+
+    .mt-5 {
+        margin-top: 0px !important;
+    }
+
+    .our_achievement_section {
+        background-image: url(../images/our-achievement-bg.png);
+        background-repeat: no-repeat;
+        margin-top: -16rem;
+        background-position: top;
+        padding: 310px 0px 216px 0px;
+        background-size: 100% 23%;
+    }
+
+    .update_slider_mobile {
+        background-image: url(../images/update-slider-mobile-img.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .digital_nalanda_slider_content {
+        padding: 100px 20px;
+    }
+
+    .digital_nalanda_slider .slick-next {
+        right: 40%;
+        top: 115%;
+    }
+
+    .frequently input[type="radio"]+span {
+        margin-top: 20px;
+    }
+
+    .support_banner_img img {
+        display: none;
+    }
+
+    .support_banner {
+        background-image: url(../images/support-banner-img.png);
+        background-repeat: no-repeat;
+        padding: 90px 0px;
+        background-size: contain;
+    }
+
+    .supp_ban_heading {
+        font-size: 32px;
+    }
+
+    .light_heading {
+        font-size: 18px;
+    }
+
+    .support_banner_cont {
+        padding-left: 95px;
+    }
+
+    .Supp_content_section {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .support_image_with_text_sec h3,
+    .faq-sec-heading {
+        font-size: 24px;
+    }
+
+    .support_faq_section .accordion-button {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .faq_ans_div p {
+        font-weight: 400;
+    }
+
+    .support-pay-div a {
+        border-radius: 10px;
+    }
+    /* .flex-drec-rev-tab {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    } */
+    .his_text_img_sec {
+        padding-top: 45px;
+    }
+    .large_year_div p {
+        font-size: 120px;
+    }
+    .blue_bg {
+        width: 99px;
+        height: 150%;
+        top: -35%;
+        left: 0;
+        transform: unset;
+    }
+    .history_content_left {
+        width: 100%;
+        text-align: left;
+        padding-left: 98px;
+        padding-top: 25px;
+    }
+    .img-aline-mob{
+        text-align: start !important;
+    }
+    .history_content_right {
+        padding-left: 98px;
+        padding-top: 25px;
+    }
+    .history_banner_cont {
+        padding: 20px 15px;
+        margin-top: -76px;
+    }
+
+    .blue_year_col {
+        font-size: 32px;
+    }
+    .history_text_heading {
+        font-size: 20px;
+    }
+    .text_box h4 {
+        font-size: 13px;
+    }
+    .history_res_banner{
+        display: block;
+    }
+    .history_des_banner{
+        display: none;
+    }
+    .his_logo_cont_div{
+        display: block;
+    }
+    .text_top_space{
+        margin-top: 70px;
+    }
+    .custom-lab-card {
+        margin-top: 25px;
+    }
+    .abhiyan-lab-card {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .labs-image-card-space {
+        margin: 0px 0px 35px 0px;
+    }
+    .workshop_slider_div .slick-next {
+        right: 38%;
+        top: 125%;
+    }
+    .blog_slider_content {
+        padding: 20px 20px 20px 20px;
+    }
+    .fliter-cus-btn {
+        display: block;
+    }
+    .blog_update_slider .digital_nalanda_slider .slick-next {
+        right: 40%;
+        top: 108%;
+    }
+    .blog_update_slider .digital_nalanda_slider .slick-prev {
+        left: 35%;
+        top: 108%;
+    }
+    .blog_tabs_heading {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+    .blog_post_heading {
+        font-size: 16px;
+    }
+    .fliter-cus-btn img {
+        width: 25px;
+        margin: 0px 8px;
+    }
+    .blog_nalanda_mitra_sec{
+        margin-top: 50px;
+        padding: 50px 0px 50px 0px;
+    }
+    .blog_post_img img {
+        width: 100%;
+    }
+    .blog-card {
+        width: 100%;
+    }
+    .nav.blog_tabs_space {
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width:589px) {
+    .support_faq_section .accordion-body {
+        margin: 0 10px;
+        padding: 10px 0px;
+    }
+    .semi_cricle_slider_section .button-wrap .btn.btn-next {
+        right: 3%;
+    }
+    .semi_cricle_slider_section .button-wrap .btn-prev {
+        left: 7%;
+        bottom: -3%;
+    }
+    .semi_cricle_slider_section .slide-container .cricle-slide {
+        width: 80px;
+        height: 80px;
+        margin-top: -8vw;
+        margin-left: -6vw;
+    }
+    .semi_cricle_slider_section .slide-container {
+        width: 70vw;
+    }
+    .digital_nalanda_slider_content h3 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .achievement_icon_card {
+        margin: 10px auto;
+    }
+    .banner_img img {
+        height: 261px !important;
+        object-fit: fill;
+        border-radius: 60px 0px 0px 0px;
+    }
+    .digital_banner_content {
+        padding-top: 18%;
+    }
+
+    .digital_banner_heading h1 {
+        font-size: 24px;
+    }
+
+    .digital_banner_img {
+        margin: 0px;
+    }
+
+    .join_today_section {
+        padding-bottom: 80px;
+    }
+    .large_year_div p {
+        font-size: 60px;
+    }
+    .ab_head_sm {
+        font-size: 28px;
+    }
+    .ab_head_bg {
+        font-size: 28px;
+    }
+    .prof_content p {
+        font-size: 20px;
+    }
+    .latest_blog_post {
+        display: block;
+    }
+    .blog_post_content {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+}
+
+@media only screen and (max-width:475px) {
+    .semi_cricle_slider_section .slide-container .cricle-slide {
+        width: 80px;
+        height: 80px;
+        margin-top: -17vw;
+        margin-left: -10vw;
+    }
+    .custom_testimoneal_slider .slick-prev {
+        right: 35%;
+        top: 55%;
+    }
+
+    .custom_testimoneal_slider .slick-next {
+        right: 20%;
+        top: 55%;
+    }
+
+    .col-xs-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+
+    .contact_info_sec {
+        background-size: 100% 100%;
+        padding: 50px 25px;
+    }
+
+    .contribute_now_btn {
+        padding: 10px 15px;
+    }
+
+    .updates_slider_cont {
+        margin-right: 0rem;
+        padding: 15px;
+        clip-path: unset;
+    }
+
+    .custom_testimoneal_slider .testimonial-slide {
+        padding: 0px 0px;
+    }
+
+    .support_sec {
+        background-color: #1B61A3;
+        padding: 50px 25px;
+    }
+
+    .campus_btns {
+        flex-wrap: wrap;
+    }
+
+    .contribute_now_btn {
+        margin-top: 20px;
+    }
+
+    .left-banner-sec {
+        margin: 0px 0px;
+    }
+
+    .semi_cricle_slider_section .slide-container {
+        background-size: 120px 120px;
+    }
+
+    .semi_cricle_slider_section .semi_cricle_slider {
+        height: 230px;
+    }
+
+    .semi_cricle_slider_section .slide-container {
+        height: 195px;
+    }
+
+    .semi_cricle_slider_section .slide-container {
+        width: 80vw;
+        height: 56vw;
+    }
+
+    .common_banner {
+        height: 580px;
+    }
+
+    .digital_nalanda_slider .slick-next {
+        right: 40%;
+        top: 110%;
+    }
+
+    .digital_nalanda_slider .slick-prev {
+        left: 32%;
+        top: 110%;
+    }
+
+    .nalanda-header.is-sticky img {
+        width: 50%;
+    }
+
+    .round_slider_heading {
+        font-size: 24px;
+    }
+
+    .card_num {
+        font-size: 48px;
+    }
+
+    .nalanda_campus_cont {
+        padding: 50px 25px;
+    }
+
+    .banner-bg {
+        background-size: 388px 960px;
+        background-position: top right;
+        height: 100%;
+    }
+
+    .main_banner_heading {
+        font-family: "Preahvihear", sans-serif;
+        font-size: 23px;
+    }
+
+    .custom_counselling_sec {
+        background-size: 100% 47%;
+    }
+
+    .digital_banner_heading h1 {
+        margin-top: 10px;
+    }
+
+    .digital_banner_content {
+        padding-top: 20%;
+    }
+
+    .support_faq_section .accordion-button {
+        font-size: 18px;
+    }
+    .blue_bg {
+        top: -42%;
+    }
+    .large_year_div p {
+        font-size: 30px;
+    }
+    .supp_ban_heading {
+        font-size: 26px;
+    }
+    .digital_banner_content {
+        width: 100%;
+    }
+    .cus-img-res {
+        width: 215px;
+    }
+    .sanghmitra_banner_content{
+        padding-top: 0px;
+    }
+    .workshop_slider_div .slick-prev {
+        left: 40%;
+        top: 125%;
+    }
+}
+@media only screen and (max-width:380px) {
+    .semi_cricle_slider_section .semi_cricle_slider {
+        height: 199px;
+    }
+    .semi_cricle_slider_section .button-wrap .btn-prev {
+        left: 0%;
+        bottom: -3%;
+    }
+    .semi_cricle_slider_section .button-wrap .btn.btn-next {
+        right: 0%;
+    }
+    .custom_testimoneal_slider .slick-prev {
+        top: 45%;
+    }
+    .custom_testimoneal_slider .slick-next {
+        top: 45%;
+    }
+}
